@@ -3,7 +3,6 @@ import './Cart.css'
 import { useSelector } from "react-redux";
 export const OrderCart = () => {
     const [value, setValue] = useState('');
-    // const [price, setPrice] = useState("")
     let count = useSelector((state) => state.items)
     console.log(count, value)
     return (
@@ -62,6 +61,7 @@ export const OrderCart = () => {
 
                         <div className="subtotal">
                             <p>Subtotal : ₹ <b>2500</b></p>
+                            <p>Thanks for collaboration</p>
                         </div>
                     </div>
                 </div>
