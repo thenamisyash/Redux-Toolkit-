@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&family=Nunito:ital,wght@0,300;0,400;0,600;1,500&family=Wix+Madefor+Display:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: #E8E8E8;
+}
+
+#carts {
+    width: 100%;
+}
+
+.carousel-control-next-icon {
+    /* position: absolute;
+    background-image: url("../Asset/arrow-forward-outline.svg"); */
+    display: none;
+}
+
+.carousel-control-prev-icon {
+    /* background-image: url("../Asset/arrow-back-outline.svg"); */
+    display: none;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item {
+    padding: 0 25px;
+}
+
+.cart-item ion-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cart-item ion-icon:hover {
+    color: #3880FF;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    right: 18px;
+}
+
+.navbar img {
+    padding: 0 15px;
+    width: 120px;
+}
+
+.items {
+    position: relative;
+    bottom: 200px;
+    z-index: 1;
+}
+
+.products-describtion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.img-portion {
+    width: 350px;
+    height: 100%;
+}
+
+.img-portion img {
+    width: 100%;
+}
+
+.describtion p {
+    font-size: 16px;
+}
+
+.describtion button {
+    background-color: #00a997;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.19);
+    outline: none;
+}
+
+.describtion button:hover {
+    background-color: #c4e5d2;
+    color: rgb(0, 0, 0);
+}
+
+.addto {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.addto ion-icon {
+    background-color: #00a997;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.addto ion-icon:hover {
+    background-color: #c4e5d2;
+    color: rgb(0, 0, 0);
+}
+.bucket{
+    padding: 25px;
+    background-color: white;
+}
+.addedcart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.anything{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-part{
+    display: flex;
+    /* flex-direction: ; */
+}
+.image-part img{
+    width: 300px;
+    height: 100%;
+}
+.describtion-cart {
+    display: flex;
+    flex-direction: column;
+}
+.describtion-cart select{
+    width: 100px;
+}
